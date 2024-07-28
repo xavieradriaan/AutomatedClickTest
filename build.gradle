@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.22.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.9.2'
+
+}
+
+test {
+    useJUnitPlatform()
+}
