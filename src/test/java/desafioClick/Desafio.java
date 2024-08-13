@@ -22,7 +22,7 @@ public class Desafio {
    
         WebDriverManager.chromedriver().setup();
 
-        // Deshabilitar montón de notificaciones y configuraciones emergentes inservibles
+        // Deshabilitar montón de notificaciones y configuraciones emergentes inservibles...
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
